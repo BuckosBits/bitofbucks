@@ -19,14 +19,18 @@
 		<perfectomobile.version>18.3.0.3</perfectomobile.version>
 		<intellij.perfectomobile.version>18.4.0.0 </intellij.perfectomobile.version>
 		<qaf.version>2.1.14</qaf.version>
+		<qafsupport.version>2.1.15</qafsupport.version>
+		<appium.client.version>6.1.0</appium.client.version>
+		<qaf.version>3.0.0</qaf.version>
+		<qafsupport.version>2.1.15</qafsupport.version>
+		<appium.client.version>7.4.0</appium.client.version>
 		<qafsupport.version>3.0.0</qafsupport.version>
 		<appium.client.version>7.4.1</appium.client.version>
-=======
 		<qaf.version>3.0.0</qaf.version>
 		<qafsupport.version>2.1.14</qafsupport.version>
 		<appium.client.version>7.4.1</appium.client.version>
 	</properties>
-
+  
 	<scm>
 		<developerConnection>scm:git:https://github.com/Project-Quantum/Quantum</developerConnection>
 	</scm>
@@ -135,10 +139,14 @@
 			<groupId>com.qmetry</groupId>
 			<artifactId>qaf</artifactId>
 			<version>${qaf.version}</version>
+      
 			<exclusions>
+        
 				<exclusion>
+          
 					<groupId>info.cukes</groupId>
 					<artifactId>cucumber-java</artifactId>
+          
 				</exclusion>
 				<!-- <exclusion> -->
 				<!-- <groupId>org.seleniumhq.selenium</groupId> -->
@@ -153,6 +161,7 @@
 				<!-- <artifactId>selenium-java</artifactId> -->
 				<!-- </exclusion> -->
 			</exclusions>
+      
 		</dependency>
 		<dependency>
 			<groupId>com.qmetry</groupId>
