@@ -5,9 +5,9 @@ name: Bucksbitties-CI
 # Controls when /the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ BuckosBits/bitofbucks/.github/workflows/main.yml ]
-  pull_request:
+  push:MoneyMan573/master/bitofbucks
+    branches: [ BuckosBits/bitofbucks/.github/workflows/main.google.yml ]
+    pull_request:bitofbucks/.github/workflows/BuckosBitsmain
     branches: [ MoneyMan573/master/bitofbucks ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
